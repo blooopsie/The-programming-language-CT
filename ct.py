@@ -17,3 +17,12 @@ while d != "":
     t += 1
     if t == len(p):
         t = 0
+'''
+Note: It has some errors.
+Error:
+ERROR!
+Traceback (most recent call last):
+  File \"<main.py>\", line 16, in <module>
+  File \"<main.py>\", line 7, in ct
+AttributeError: 'NoneType' object has no attribute 'replace'
+'''
