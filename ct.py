@@ -9,8 +9,8 @@ def ct(d, cmd):
         return d + cmd
     else:
         return d
-d = input("Data-string: ")
 p = input("Program: ")
+d = input("Data-string: ")
 t = 0
 while not (d.isspace() or d = ""):
     print(d := ct(d, p[t % len(p)]))
