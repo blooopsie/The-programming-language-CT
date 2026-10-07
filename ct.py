@@ -8,7 +8,7 @@ def ct(d, cmd):
     elif cmd.isdigit() and d[0] == "1":
         return d + cmd
     else:
-        pass
+        return d
 d = input("Data-string: ")
 p = input("Program: ")
 t = 0
