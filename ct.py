@@ -12,6 +12,6 @@ def ct(d, cmd):
 p = input("Program: ")
 d = input("Data-string: ")
 t = 0
-while not (d.isspace() or d = ""):
+while not d.isspace():
     print(d := ct(d, p[t % len(p)]))
     t += 1
